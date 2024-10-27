@@ -30,7 +30,7 @@
     align-items: center;
 }
 .logo h1{
-    font-family: "Audiowide", serif;
+    font-family: "Audiowide", sarif;
     color: white;
     font-weight: 200;
     font-size: 40px;
@@ -190,13 +190,14 @@
     margin: 5px;
 }
 .section3{
-    height: 100px;
+    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background-color: #EFF8FF;
 }
 .section3 h2{
     font-family: "Audiowide", serif;
@@ -210,8 +211,96 @@
     font-weight: lighter;
     text-align: center;
 }
-
-
+.section4{
+    height: 500px;
+    width: 100%;
+    background-color: #EFF8FF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile1, .profile2 , .proflle3{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+box-shadow: 2px 2px 15px black;
+    border: 2px solid black;
+    margin: 30px;
+}
+.pro1img{
+height: 50%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pro1img img{
+width: 150px;
+border-radius: 100%;
+}
+.pro1h1{
+    height: 15%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pro1h1 h1{
+    font-family: "Audiowide", serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+.pro1p{
+    height: 15%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pro1p p{
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.pro1icon{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pro1icon a{
+    color: #1D272E;
+    padding: 16px;
+    font-size: 24px;
+}
+.pro1img2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .pro1img2 img{
+        width: 150px;
+    }
+    .pro1img3{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .pro1img3 img{
+        width: 150px;
+        border-radius: 100%;
+        }
 
 
 
@@ -339,6 +428,10 @@
     .section2{
         height: auto;
     }
+    .section4{
+        height: auto;
+    }
+
     
 
 }
